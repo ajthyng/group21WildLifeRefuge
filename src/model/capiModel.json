@@ -1,18 +1,18 @@
 {
   "SimCount.redtailHawkCount": 5,
-  "SimCount.snowshoeHareCount": 15,
+  "SimCount.snowshoeHareCount": 4,
   "SimCount.sageBushCount": 0,
-  "SimCount.westernCedarCount": 5,
-  "SimCount.grass": 150,
+  "SimCount.westernCedarCount": 10,
+  "SimCount.grass": 50,
   "Hare.label": false,
   "Hare.maleBias": 50,
   "Hare.ovulationTime": 86400,
   "Hare.sightRange": 170,
-  "Hare.metabolism": 2,
+  "Hare.metabolism": 3,
   "Hare.starvationTime": 43200,
   "WesternCedar.label": false,
   "Hawk.label": false,
-  "Hawk.metabolism": 3,
+  "Hawk.metabolism": 5,
   "Hawk.maleBias": 50,
   "Hawk.ovulationTime": 172800,
   "Hawk.starvationTime": 86400,
@@ -27,19 +27,47 @@
   "env.water": 1.0,
   "env.waterRegen": 0.001,
   "env.waterFlow": 0.1,
-  "env.waterBalanceThreshold" : 0.5,
+  "env.waterBalanceThreshold": 0.5,
   "env.updateRate": 1,
-  "env.objectLimit": 1500,
+  "env.objectLimit": 500,
   "env.nutrients": 1.0,
-  "env.envConsumeKeys": ["water", "nutrients"],
-  "env.auxEnvParams": ["germinationRate", "nutrientReturnOnDeath"],
-  "env.treeParams": [0.05, 0.00125, 0.05, 2.0],
-  "env.grassParams": [0.01, 0.001, 0.05, 0.25],
-  "env.numAnimalParams" : 1,
-  "env.hareParams": [1.0],
-  "env.hawkParams": [1.0],
-  "env.weatherTypes": [ "Normal", "Rain", "Drought"],
-  "env.weatherModifiers": [1.0, 1.5, 0.5],
+  "env.envConsumeKeys": [
+    "water",
+    "nutrients"
+  ],
+  "env.auxEnvParams": [
+    "germinationRate",
+    "nutrientReturnOnDeath"
+  ],
+  "env.treeParams": [
+    0.05,
+    0.00125,
+    0.05,
+    2.0
+  ],
+  "env.grassParams": [
+    0.01,
+    0.001,
+    0.05,
+    0.25
+  ],
+  "env.numAnimalParams": 1,
+  "env.hareParams": [
+    1.0
+  ],
+  "env.hawkParams": [
+    1.0
+  ],
+  "env.weatherTypes": [
+    "Normal",
+    "Rain",
+    "Drought"
+  ],
+  "env.weatherModifiers": [
+    1.0,
+    1.5,
+    0.5
+  ],
   "env.weather": "Normal",
   "westernCedarLabel": true,
   "inputTable": []
